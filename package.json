@@ -13,7 +13,9 @@
   "author": "Jean Yang",
   "license": "MIT",
   "dependencies": {
-    "electron": "^1.4.7",
+    "electron": "^1.4.7"
+  },
+  "devDependencies": {
     "eslint": "^3.10.2",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
