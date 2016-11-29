@@ -2,7 +2,7 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const port = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8000;
 
 const config = {
   debug: true,
@@ -23,6 +23,7 @@ const config = {
       colors: true,
       chunks: false,
     },
+    port: PORT,
   },
   module: {
     loaders: [

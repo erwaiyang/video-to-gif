@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron .",
+    "start": "NODE_ENV=development electron src/app.js",
     "dev": "webpack-dev-server --inline --hot --config webpack.config.hot.js"
   },
   "keywords": [
